@@ -22,6 +22,7 @@ xlabel("w (rad)")
 xlim([0, pi])
 ylabel("|H(w)|")
 title("Magnitude of H(w)")
+grid on
 
 figure;
 plot(w, angle(h))
@@ -29,6 +30,4 @@ xlabel("w (rad)")
 xlim([0, pi])
 ylabel("angle(H(w)) (rad)")
 title("Phase of H(w)")
-
 grid on
-waitfor(fig)
